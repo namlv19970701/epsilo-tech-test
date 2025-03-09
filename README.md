@@ -20,13 +20,18 @@ Original 2 tables for record metrics look like this:
 
 1. keyword:
 keyword_id - bigint
+
 keyword_name - varchar(255)
+
 primary key (keyword_id)
 
-2. keyword_search_volume:
+3. keyword_search_volume:
 keyword_id - bigint
+
 created_datetime - datetime (hourly format - yyyy-MM-dd HH:00:00)
+
 search_volume - bigint
+
 primary key (keyword_id, created_datetime)
 
 ---------------------
@@ -53,6 +58,7 @@ Requirement:
 7. Record a video of how you run the test, explain your design by voice or subtext.
 
 Note that: you do not have to do all the requirements, just do the best that you can.
+
 You can deliver the test in a zip file (not rar file), upload to Google Drive and share us through this email.
 
 Good luck, have fun.
